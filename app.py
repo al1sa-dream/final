@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from models import get_db, User, Recipe  # Убедитесь, что импортируете нужные модели и функцию get_db
+from models import get_db, User, Recipe 
 from auth import auth_blueprint
 from recipe import recipe_blueprint
 
